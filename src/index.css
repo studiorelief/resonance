@@ -1,0 +1,25 @@
+/* 
+! Swiper blog
+*/ 
+
+.swiper.is-blog {
+    overflow: visible !important;
+}
+
+.swiper-slide {
+    height: auto !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: var(--background-color--background-brand) !important;
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--background-color--background-tertiary) !important;
+    width: 0.75rem !important;
+    border-radius: 3.9rem !important;
+}
+
+.swiper-button-disabled {
+    opacity: 0.25;
+}
