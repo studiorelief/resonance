@@ -17,6 +17,7 @@ window.Webflow.push(() => {
   */
   Promise.all([
     loadScript('https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsfilter@1/cmsfilter.js'),
+    loadScript('https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsload@1/cmsload.js'),
   ]);
 
   /*
